@@ -19,7 +19,7 @@ http://localhost:3000/
 以下のコマンドでコンテナ内部に入る
 
 ```
-docker exec -ti rubyPractice_web /bin/bash
+docker exec -ti web /bin/bash
 ```
 
 ## DB・テーブル確認手法
