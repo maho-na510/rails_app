@@ -1,7 +1,7 @@
 class Api::V1::TodosController < ApplicationControler
     def index
-        todoe = Todo.order(updated_at: :desc)
-        render ison: todoe
+        todos = Todo.order(updated_at: :desc)
+        render json: todos
     end
 
     def show

@@ -9,4 +9,20 @@ module.exports = {
     '.js': 'jsx',
   },
   jsxFactory: 'React.createElement',
+  external: [
+    'react',
+    'react-dom',
+    '@rails/ujs',
+    'turbolinks',
+    '@rails/activestorage',
+    'channels',
+    '../javascript/packs/index.jsx',
+    'react-router-dom',
+    'styled-components',
+    'axios',
+    'react-toastify',
+    'react-icons/im',
+    'react-icons/ai',
+    'react-icons/fi',
+  ]
 };
